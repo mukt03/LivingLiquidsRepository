@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1" thread-count="2" parallel="tests">
+  <test name="ChromeTest" parallel="classes">
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="LivingLiquidztestNg.VerifyHomepageWebelements"/>
+      <class name="LivingLiquidztestNg.VerifySignIn"/>
+      <class name="LivingLiquidztestNg.VerifySearchbox"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="EdgeTest" parallel="classes">
+  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="LivingLiquidztestNg.VerifyHomepageWebelements"/>
+      <class name="LivingLiquidztestNg.VerifySignIn"/>
+            <class name="LivingLiquidztestNg.VerifySearchbox"/>
+
+    </classes>
+  </test> <!-- ChromeTest -->
+</suite> <!-- Suite1 -->
