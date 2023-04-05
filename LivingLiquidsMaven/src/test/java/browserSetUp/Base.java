@@ -8,12 +8,12 @@ public class Base {
 
 	public static WebDriver openChromeBrowser() {
 		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\browserFiles\\chromedriver.exe");
-		WebDriver driver =new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		return driver;
 	}
 	public static WebDriver openEdgeBrowser() {
-		System.setProperty("webdriver.edge.driver", "src\\test\\resources\\browserFiles\\msedgedriver.exe");
-		WebDriver driver =new EdgeDriver();
+		System.setProperty("webdriver.edge.driver",  "src\\test\\resources\\browserFiles\\msedgedriver.exe");
+		WebDriver driver = new EdgeDriver();
 		return driver;
 	}
 }
