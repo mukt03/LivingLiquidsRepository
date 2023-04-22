@@ -226,29 +226,34 @@
                   <a name="verifySigninError">
                   </a> <!-- verifySigninError -->
                   <span class="method-name">verifySigninError</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=111.0.5563.147)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.137)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MUKTA&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c6e4ba53db8b3fd29057f4ca2f9515ec
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6971a6773a39e387c95ec3e67bac2541
+*** Element info: {Using=xpath, value=(//button[@id=&quot;wbr-btn-send-otp&quot;])[2]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-	at pages.LogInPage.passOTP(LogInPage.java:35)
-	at LivingLiquidztestNg.VerifySignIn.verifySigninError(VerifySignIn.java:85)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at pages.LogInPage.clickOnProceed(LogInPage.java:38)
+	at LivingLiquidztestNg.VerifySignIn.verifySigninError(VerifySignIn.java:86)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames
+... Removed 17 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -267,35 +272,35 @@ Session ID: c6e4ba53db8b3fd29057f4ca2f9515ec
                   <span class="method-name">VerifySignIntext</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.39)
+  (Session info: MicrosoftEdge=112.0.1722.48)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MUKTA&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: driver.version: EdgeDriver
 remote stacktrace: Backtrace:
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E16A5B2+12658]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E102852+747634]
-	(No symbol) [0x00007FF68DD9DD2E]
-	(No symbol) [0x00007FF68DD87C01]
-	(No symbol) [0x00007FF68DD89001]
-	(No symbol) [0x00007FF68DD88F30]
-	(No symbol) [0x00007FF68DD76202]
-	(No symbol) [0x00007FF68DD75D7A]
-	(No symbol) [0x00007FF68DE07316]
-	(No symbol) [0x00007FF68DDFF1C3]
-	(No symbol) [0x00007FF68DDD17D6]
-	(No symbol) [0x00007FF68DDD09B5]
-	(No symbol) [0x00007FF68DDD1F44]
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E015520+147088]
-	(No symbol) [0x00007FF68DEB91B6]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E054487+33959]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E057F55+49013]
-	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF68E349923+1305299]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E10AE0C+781868]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E110334+803668]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E11048C+804012]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E118591+837041]
-	BaseThreadInitThunk [0x00007FF91CD226BD+29]
-	RtlUserThreadStart [0x00007FF91EDEA9F8+40]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+	(No symbol) [0x00007FF7605DDD2E]
+	(No symbol) [0x00007FF7605C7C01]
+	(No symbol) [0x00007FF7605C9001]
+	(No symbol) [0x00007FF7605C8F30]
+	(No symbol) [0x00007FF7605B6202]
+	(No symbol) [0x00007FF7605B5D7A]
+	(No symbol) [0x00007FF760647316]
+	(No symbol) [0x00007FF76063F1C3]
+	(No symbol) [0x00007FF7606117D6]
+	(No symbol) [0x00007FF7606109B5]
+	(No symbol) [0x00007FF760611F44]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+	(No symbol) [0x00007FF7606F91B6]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+	BaseThreadInitThunk [0x00007FF8013D269D+29]
+	RtlUserThreadStart [0x00007FF802A6A9F8+40]
 
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
@@ -335,35 +340,35 @@ remote stacktrace: Backtrace:
                   <span class="method-name">verifyGiftingtext</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.39)
+  (Session info: MicrosoftEdge=112.0.1722.48)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MUKTA&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: driver.version: EdgeDriver
 remote stacktrace: Backtrace:
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E16A5B2+12658]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E102852+747634]
-	(No symbol) [0x00007FF68DD9DD2E]
-	(No symbol) [0x00007FF68DD87C01]
-	(No symbol) [0x00007FF68DD89001]
-	(No symbol) [0x00007FF68DD88F30]
-	(No symbol) [0x00007FF68DD76202]
-	(No symbol) [0x00007FF68DD75D7A]
-	(No symbol) [0x00007FF68DE07316]
-	(No symbol) [0x00007FF68DDFF1C3]
-	(No symbol) [0x00007FF68DDD17D6]
-	(No symbol) [0x00007FF68DDD09B5]
-	(No symbol) [0x00007FF68DDD1F44]
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E015520+147088]
-	(No symbol) [0x00007FF68DEB91B6]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E054487+33959]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E057F55+49013]
-	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF68E349923+1305299]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E10AE0C+781868]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E110334+803668]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E11048C+804012]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E118591+837041]
-	BaseThreadInitThunk [0x00007FF91CD226BD+29]
-	RtlUserThreadStart [0x00007FF91EDEA9F8+40]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+	(No symbol) [0x00007FF7605DDD2E]
+	(No symbol) [0x00007FF7605C7C01]
+	(No symbol) [0x00007FF7605C9001]
+	(No symbol) [0x00007FF7605C8F30]
+	(No symbol) [0x00007FF7605B6202]
+	(No symbol) [0x00007FF7605B5D7A]
+	(No symbol) [0x00007FF760647316]
+	(No symbol) [0x00007FF76063F1C3]
+	(No symbol) [0x00007FF7606117D6]
+	(No symbol) [0x00007FF7606109B5]
+	(No symbol) [0x00007FF760611F44]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+	(No symbol) [0x00007FF7606F91B6]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+	BaseThreadInitThunk [0x00007FF8013D269D+29]
+	RtlUserThreadStart [0x00007FF802A6A9F8+40]
 
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
@@ -403,35 +408,35 @@ remote stacktrace: Backtrace:
                   <span class="method-name">verifyStoreLocatortext</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.39)
+  (Session info: MicrosoftEdge=112.0.1722.48)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MUKTA&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: driver.version: EdgeDriver
 remote stacktrace: Backtrace:
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E16A5B2+12658]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E102852+747634]
-	(No symbol) [0x00007FF68DD9DD2E]
-	(No symbol) [0x00007FF68DD87C01]
-	(No symbol) [0x00007FF68DD89001]
-	(No symbol) [0x00007FF68DD88F30]
-	(No symbol) [0x00007FF68DD76202]
-	(No symbol) [0x00007FF68DD75D7A]
-	(No symbol) [0x00007FF68DE07316]
-	(No symbol) [0x00007FF68DDFF1C3]
-	(No symbol) [0x00007FF68DDD17D6]
-	(No symbol) [0x00007FF68DDD09B5]
-	(No symbol) [0x00007FF68DDD1F44]
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E015520+147088]
-	(No symbol) [0x00007FF68DEB91B6]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E054487+33959]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E057F55+49013]
-	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF68E349923+1305299]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E10AE0C+781868]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E110334+803668]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E11048C+804012]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E118591+837041]
-	BaseThreadInitThunk [0x00007FF91CD226BD+29]
-	RtlUserThreadStart [0x00007FF91EDEA9F8+40]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+	(No symbol) [0x00007FF7605DDD2E]
+	(No symbol) [0x00007FF7605C7C01]
+	(No symbol) [0x00007FF7605C9001]
+	(No symbol) [0x00007FF7605C8F30]
+	(No symbol) [0x00007FF7605B6202]
+	(No symbol) [0x00007FF7605B5D7A]
+	(No symbol) [0x00007FF760647316]
+	(No symbol) [0x00007FF76063F1C3]
+	(No symbol) [0x00007FF7606117D6]
+	(No symbol) [0x00007FF7606109B5]
+	(No symbol) [0x00007FF760611F44]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+	(No symbol) [0x00007FF7606F91B6]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+	BaseThreadInitThunk [0x00007FF8013D269D+29]
+	RtlUserThreadStart [0x00007FF802A6A9F8+40]
 
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
@@ -479,35 +484,35 @@ remote stacktrace: Backtrace:
                   <span class="method-name">verifySignInTitlePage</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.39)
+  (Session info: MicrosoftEdge=112.0.1722.48)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MUKTA&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: driver.version: EdgeDriver
 remote stacktrace: Backtrace:
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E16A5B2+12658]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E102852+747634]
-	(No symbol) [0x00007FF68DD9DD2E]
-	(No symbol) [0x00007FF68DD87C01]
-	(No symbol) [0x00007FF68DD89001]
-	(No symbol) [0x00007FF68DD88F30]
-	(No symbol) [0x00007FF68DD76202]
-	(No symbol) [0x00007FF68DD75D7A]
-	(No symbol) [0x00007FF68DE07316]
-	(No symbol) [0x00007FF68DDFF1C3]
-	(No symbol) [0x00007FF68DDD17D6]
-	(No symbol) [0x00007FF68DDD09B5]
-	(No symbol) [0x00007FF68DDD1F44]
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E015520+147088]
-	(No symbol) [0x00007FF68DEB91B6]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E054487+33959]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E057F55+49013]
-	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF68E349923+1305299]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E10AE0C+781868]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E110334+803668]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E11048C+804012]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E118591+837041]
-	BaseThreadInitThunk [0x00007FF91CD226BD+29]
-	RtlUserThreadStart [0x00007FF91EDEA9F8+40]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+	(No symbol) [0x00007FF7605DDD2E]
+	(No symbol) [0x00007FF7605C7C01]
+	(No symbol) [0x00007FF7605C9001]
+	(No symbol) [0x00007FF7605C8F30]
+	(No symbol) [0x00007FF7605B6202]
+	(No symbol) [0x00007FF7605B5D7A]
+	(No symbol) [0x00007FF760647316]
+	(No symbol) [0x00007FF76063F1C3]
+	(No symbol) [0x00007FF7606117D6]
+	(No symbol) [0x00007FF7606109B5]
+	(No symbol) [0x00007FF760611F44]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+	(No symbol) [0x00007FF7606F91B6]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+	BaseThreadInitThunk [0x00007FF8013D269D+29]
+	RtlUserThreadStart [0x00007FF802A6A9F8+40]
 
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
@@ -547,35 +552,35 @@ remote stacktrace: Backtrace:
                   <span class="method-name">verifySigninError</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.39)
+  (Session info: MicrosoftEdge=112.0.1722.48)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MUKTA&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: driver.version: EdgeDriver
 remote stacktrace: Backtrace:
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E16A5B2+12658]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E102852+747634]
-	(No symbol) [0x00007FF68DD9DD2E]
-	(No symbol) [0x00007FF68DD87C01]
-	(No symbol) [0x00007FF68DD89001]
-	(No symbol) [0x00007FF68DD88F30]
-	(No symbol) [0x00007FF68DD76202]
-	(No symbol) [0x00007FF68DD75D7A]
-	(No symbol) [0x00007FF68DE07316]
-	(No symbol) [0x00007FF68DDFF1C3]
-	(No symbol) [0x00007FF68DDD17D6]
-	(No symbol) [0x00007FF68DDD09B5]
-	(No symbol) [0x00007FF68DDD1F44]
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E015520+147088]
-	(No symbol) [0x00007FF68DEB91B6]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E054487+33959]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E057F55+49013]
-	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF68E349923+1305299]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E10AE0C+781868]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E110334+803668]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E11048C+804012]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E118591+837041]
-	BaseThreadInitThunk [0x00007FF91CD226BD+29]
-	RtlUserThreadStart [0x00007FF91EDEA9F8+40]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+	(No symbol) [0x00007FF7605DDD2E]
+	(No symbol) [0x00007FF7605C7C01]
+	(No symbol) [0x00007FF7605C9001]
+	(No symbol) [0x00007FF7605C8F30]
+	(No symbol) [0x00007FF7605B6202]
+	(No symbol) [0x00007FF7605B5D7A]
+	(No symbol) [0x00007FF760647316]
+	(No symbol) [0x00007FF76063F1C3]
+	(No symbol) [0x00007FF7606117D6]
+	(No symbol) [0x00007FF7606109B5]
+	(No symbol) [0x00007FF760611F44]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+	(No symbol) [0x00007FF7606F91B6]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+	BaseThreadInitThunk [0x00007FF8013D269D+29]
+	RtlUserThreadStart [0x00007FF802A6A9F8+40]
 
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
@@ -623,35 +628,35 @@ remote stacktrace: Backtrace:
                   <span class="method-name">verifySearch</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.39)
+  (Session info: MicrosoftEdge=112.0.1722.48)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MUKTA&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: driver.version: EdgeDriver
 remote stacktrace: Backtrace:
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E16A5B2+12658]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E102852+747634]
-	(No symbol) [0x00007FF68DD9DD2E]
-	(No symbol) [0x00007FF68DD87C01]
-	(No symbol) [0x00007FF68DD89001]
-	(No symbol) [0x00007FF68DD88F30]
-	(No symbol) [0x00007FF68DD76202]
-	(No symbol) [0x00007FF68DD75D7A]
-	(No symbol) [0x00007FF68DE07316]
-	(No symbol) [0x00007FF68DDFF1C3]
-	(No symbol) [0x00007FF68DDD17D6]
-	(No symbol) [0x00007FF68DDD09B5]
-	(No symbol) [0x00007FF68DDD1F44]
-	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF68E015520+147088]
-	(No symbol) [0x00007FF68DEB91B6]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E054487+33959]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E057F55+49013]
-	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF68E349923+1305299]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E10AE0C+781868]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E110334+803668]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E11048C+804012]
-	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68E118591+837041]
-	BaseThreadInitThunk [0x00007FF91CD226BD+29]
-	RtlUserThreadStart [0x00007FF91EDEA9F8+40]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+	(No symbol) [0x00007FF7605DDD2E]
+	(No symbol) [0x00007FF7605C7C01]
+	(No symbol) [0x00007FF7605C9001]
+	(No symbol) [0x00007FF7605C8F30]
+	(No symbol) [0x00007FF7605B6202]
+	(No symbol) [0x00007FF7605B5D7A]
+	(No symbol) [0x00007FF760647316]
+	(No symbol) [0x00007FF76063F1C3]
+	(No symbol) [0x00007FF7606117D6]
+	(No symbol) [0x00007FF7606109B5]
+	(No symbol) [0x00007FF760611F44]
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+	(No symbol) [0x00007FF7606F91B6]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+	BaseThreadInitThunk [0x00007FF8013D269D+29]
+	RtlUserThreadStart [0x00007FF802A6A9F8+40]
 
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
@@ -808,37 +813,37 @@ data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifySigninError')
 data.setCell(0, 2, 'LivingLiquidztestNg.VerifySignIn')
-data.setCell(0, 3, 21398);
+data.setCell(0, 3, 8549);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifySearch')
 data.setCell(1, 2, 'LivingLiquidztestNg.VerifySearchbox')
-data.setCell(1, 3, 5334);
+data.setCell(1, 3, 4552);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifySignInTitlePage')
 data.setCell(2, 2, 'LivingLiquidztestNg.VerifySignIn')
-data.setCell(2, 3, 2520);
+data.setCell(2, 3, 842);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'VerifySignIntext')
 data.setCell(3, 2, 'LivingLiquidztestNg.VerifyHomepageWebelements')
-data.setCell(3, 3, 85);
+data.setCell(3, 3, 164);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyGiftingtext')
+data.setCell(4, 1, 'verifyStoreLocatortext')
 data.setCell(4, 2, 'LivingLiquidztestNg.VerifyHomepageWebelements')
-data.setCell(4, 3, 57);
+data.setCell(4, 3, 149);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyStoreLocatortext')
+data.setCell(5, 1, 'verifyGiftingtext')
 data.setCell(5, 2, 'LivingLiquidztestNg.VerifyHomepageWebelements')
-data.setCell(5, 3, 40);
+data.setCell(5, 3, 82);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyGiftingtext')
-data.setCell(6, 2, 'LivingLiquidztestNg.VerifyHomepageWebelements')
+data.setCell(6, 1, 'verifySearch')
+data.setCell(6, 2, 'LivingLiquidztestNg.VerifySearchbox')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifySearch')
-data.setCell(7, 2, 'LivingLiquidztestNg.VerifySearchbox')
+data.setCell(7, 1, 'verifyStoreLocatortext')
+data.setCell(7, 2, 'LivingLiquidztestNg.VerifyHomepageWebelements')
 data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'VerifySignIntext')
+data.setCell(8, 1, 'verifyGiftingtext')
 data.setCell(8, 2, 'LivingLiquidztestNg.VerifyHomepageWebelements')
 data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
@@ -850,14 +855,14 @@ data.setCell(10, 1, 'verifySignInTitlePage')
 data.setCell(10, 2, 'LivingLiquidztestNg.VerifySignIn')
 data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyStoreLocatortext')
+data.setCell(11, 1, 'VerifySignIntext')
 data.setCell(11, 2, 'LivingLiquidztestNg.VerifyHomepageWebelements')
 data.setCell(11, 3, 0);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -898,277 +903,290 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySearchbox</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">openBrowser(Chrome)</span>
-                <span class="method-start">8078 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">8316 ms</span>
+                <span class="method-start">3087 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">8425 ms</span>
+                <span class="method-start">3094 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">pomPageLaunch</span>
-                <span class="method-start">8599 ms</span>
+                <span class="method-start">3118 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">pomPageLaunch</span>
-                <span class="method-start">8600 ms</span>
+                <span class="method-start">3119 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">signInapp</span>
-                <span class="method-start">8624 ms</span>
+                <span class="method-start">3131 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">VerifySignIntext</span>
-                <span class="method-start">8625 ms</span>
+                <span class="method-start">3131 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureScreenshotinFailure</span>
-                <span class="method-start">8642 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifySignInTitlePage</span>
-                <span class="method-start">8651 ms</span>
+                <span class="method-start">3132 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">backTomainPage</span>
+                <span class="method-start">3134 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshotinFailure</span>
+                <span class="method-start">3136 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyGiftingtext</span>
-                <span class="method-start">8655 ms</span>
+                <span class="method-start">3147 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureScreenshotinFailure</span>
-                <span class="method-start">8659 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verifyStoreLocatortext</span>
-                <span class="method-start">8662 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureScreenshotinFailure</span>
-                <span class="method-start">8726 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">objectClear</span>
-                <span class="method-start">8729 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">LivingLiquidztestNg.VerifySearchbox</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">pomPageLaunch</span>
-                <span class="method-start">8748 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifySearch</span>
-                <span class="method-start">8756 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureScreenshotinFailure</span>
-                <span class="method-start">8758 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">objectClear</span>
-                <span class="method-start">8772 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">backTomainPage</span>
-                <span class="method-start">8879 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">signInapp</span>
-                <span class="method-start">8880 ms</span>
+                <span class="method-start">3147 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySigninError</span>
-                <span class="method-start">8881 ms</span>
+                <span class="method-start">3151 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backTomainPage</span>
-                <span class="method-start">8883 ms</span>
+                <span class="method-start">3154 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshotinFailure</span>
+                <span class="method-start">3155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyStoreLocatortext</span>
+                <span class="method-start">3161 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">objectClear</span>
+                <span class="method-start">3165 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshotinFailure</span>
+                <span class="method-start">3167 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">objectClear</span>
-                <span class="method-start">8884 ms</span>
+                <span class="method-start">3169 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LivingLiquidztestNg.VerifySearchbox</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">pomPageLaunch</span>
+                <span class="method-start">3170 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySearch</span>
+                <span class="method-start">3171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshotinFailure</span>
+                <span class="method-start">3180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">objectClear</span>
+                <span class="method-start">3182 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">8889 ms</span>
+                <span class="method-start">3188 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySearchbox</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">8891 ms</span>
+                <span class="method-start">3193 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">8894 ms</span>
+                <span class="method-start">3195 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LivingLiquidztestNg.VerifySearchbox</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">openBrowser(Chrome)</span>
-                <span class="method-start">12597 ms</span>
+                <span class="method-start">5740 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">pomPageLaunch</span>
-                <span class="method-start">19160 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser(Chrome)</span>
+                <span class="method-start">10052 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">pomPageLaunch</span>
-                <span class="method-start">19169 ms</span>
+                <span class="method-start">14366 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">pomPageLaunch</span>
+                <span class="method-start">14366 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">VerifySignIntext</span>
-                <span class="method-start">19218 ms</span>
+                <span class="method-start">14407 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">signInapp</span>
-                <span class="method-start">19231 ms</span>
+                <span class="method-start">14413 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySignInTitlePage</span>
-                <span class="method-start">19234 ms</span>
+                <span class="method-start">14414 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureScreenshotinFailure([TestResult name=VerifySignIntext status=SUCCESS method=VerifyHomepageWebelements.VerifySignIntext()...)</span>
-                <span class="method-start">19303 ms</span>
+                <span class="method-start">14574 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyGiftingtext</span>
-                <span class="method-start">19310 ms</span>
+                <span class="method-start">14575 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureScreenshotinFailure([TestResult name=verifyGiftingtext status=SUCCESS method=VerifyHomepageWebelements.verifyGiftingtext...)</span>
-                <span class="method-start">19367 ms</span>
+                <span class="method-start">14661 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyStoreLocatortext</span>
-                <span class="method-start">19368 ms</span>
+                <span class="method-start">14662 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureScreenshotinFailure([TestResult name=verifyStoreLocatortext status=FAILURE method=VerifyHomepageWebelements.verifyStoreL...)</span>
-                <span class="method-start">19409 ms</span>
+                <span class="method-start">14812 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">backTomainPage([TestResult name=verifySignInTitlePage status=SUCCESS method=VerifySignIn.verifySignInTitlePage()[pr...)</span>
+                <span class="method-start">15257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">signInapp</span>
+                <span class="method-start">15258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySigninError</span>
+                <span class="method-start">15258 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">objectClear</span>
-                <span class="method-start">21265 ms</span>
+                <span class="method-start">16652 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySearchbox</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">pomPageLaunch</span>
-                <span class="method-start">21265 ms</span>
+                <span class="method-start">16653 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifySearch</span>
-                <span class="method-start">21267 ms</span>
+                <span class="method-start">16654 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">backTomainPage([TestResult name=verifySignInTitlePage status=SUCCESS method=VerifySignIn.verifySignInTitlePage()[pr...)</span>
-                <span class="method-start">21754 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">signInapp</span>
-                <span class="method-start">21755 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifySigninError</span>
-                <span class="method-start">21755 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">LivingLiquidztestNg.VerifySearchbox</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureScreenshotinFailure([TestResult name=verifySearch status=SUCCESS method=VerifySearchbox.verifySearch()[pri:0, instance:L...)</span>
-                <span class="method-start">26602 ms</span>
+                <span class="method-start">21210 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">objectClear</span>
-                <span class="method-start">26603 ms</span>
+                <span class="method-start">21211 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">backTomainPage([TestResult name=verifySigninError status=FAILURE method=VerifySignIn.verifySigninError()[pri:0, ins...)</span>
-                <span class="method-start">43154 ms</span>
+                <span class="method-start">23810 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">objectClear</span>
-                <span class="method-start">43314 ms</span>
+                <span class="method-start">23822 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifyHomepageWebelements</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">43315 ms</span>
+                <span class="method-start">23826 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySearchbox</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">43595 ms</span>
+                <span class="method-start">24220 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LivingLiquidztestNg.VerifySignIn</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">43737 ms</span>
+                <span class="method-start">24498 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
