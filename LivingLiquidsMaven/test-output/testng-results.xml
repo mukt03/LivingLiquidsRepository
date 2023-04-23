@@ -1,471 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="7" failed="5" skipped="0">
+<testng-results ignored="0" total="12" passed="4" failed="2" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-08T01:09:45 IST" name="Suite1" finished-at="2023-04-08T01:10:18 IST" duration-ms="32948">
+  <suite started-at="2023-04-21T13:01:45 IST" name="Suite1" finished-at="2023-04-21T13:02:10 IST" duration-ms="24512">
     <groups>
     </groups>
-    <test started-at="2023-04-08T01:09:45 IST" name="EdgeTest" finished-at="2023-04-08T01:10:17 IST" duration-ms="31958">
+    <test started-at="2023-04-21T13:01:45 IST" name="EdgeTest" finished-at="2023-04-21T13:01:48 IST" duration-ms="3206">
       <class name="LivingLiquidztestNg.VerifySignIn">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:01 IST" name="openBrowser" finished-at="2023-04-08T01:10:08 IST" duration-ms="7125" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308863" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:08 IST" name="pomPageLaunch" finished-at="2023-04-08T01:10:08 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="pomPageLaunch" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308887" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pomPageLaunch -->
-        <test-method is-config="true" signature="signInapp()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:08 IST" name="signInapp" finished-at="2023-04-08T01:10:08 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="signInapp()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="signInapp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308900" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInapp -->
-        <test-method signature="verifySignInTitlePage()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:08 IST" name="verifySignInTitlePage" finished-at="2023-04-08T01:10:10 IST" duration-ms="2672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignInTitlePage -->
-        <test-method is-config="true" signature="backTomainPage(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:10 IST" name="backTomainPage" finished-at="2023-04-08T01:10:10 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifySignInTitlePage status=SUCCESS method=VerifySignIn.verifySignInTitlePage()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backTomainPage -->
-        <test-method signature="verifySigninError()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:10 IST" name="verifySigninError" finished-at="2023-04-08T01:10:15 IST" duration-ms="5095" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=111.0.1661.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62494}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c72947bfb3f3c3e883caba6faa17178
-*** Element info: {Using=xpath, value=(//button[@id="wbr-btn-send-otp"])[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=111.0.1661.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62494}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c72947bfb3f3c3e883caba6faa17178
-*** Element info: {Using=xpath, value=(//button[@id="wbr-btn-send-otp"])[2]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at pages.LogInPage.clickOnProceed(LogInPage.java:38)
-at LivingLiquidztestNg.VerifySignIn.verifySigninError(VerifySignIn.java:86)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySigninError -->
-        <test-method is-config="true" signature="signInapp()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:10 IST" name="signInapp" finished-at="2023-04-08T01:10:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signInapp -->
-        <test-method is-config="true" signature="backTomainPage(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:15 IST" name="backTomainPage" finished-at="2023-04-08T01:10:15 IST" duration-ms="17" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifySigninError status=FAILURE method=VerifySignIn.verifySigninError()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=111.0.1661.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62494}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c72947bfb3f3c3e883caba6faa17178]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=111.0.1661.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62494}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c72947bfb3f3c3e883caba6faa17178
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at utils.Utility.captureScreenshot(Utility.java:27)
-at LivingLiquidztestNg.VerifySignIn.backTomainPage(VerifySignIn.java:96)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backTomainPage -->
-        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:15 IST" name="objectClear" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680896415975" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objectClear -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-08T01:10:17 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680896417801" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- LivingLiquidztestNg.VerifySignIn -->
-      <class name="LivingLiquidztestNg.VerifyHomepageWebelements">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:09:45 IST" name="openBrowser" finished-at="2023-04-08T01:09:52 IST" duration-ms="6992" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:08 IST" name="pomPageLaunch" finished-at="2023-04-08T01:10:08 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pomPageLaunch -->
-        <test-method signature="VerifySignIntext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:08 IST" name="VerifySignIntext" finished-at="2023-04-08T01:10:08 IST" duration-ms="308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySignIntext -->
-        <test-method signature="verifyGiftingtext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:08 IST" name="verifyGiftingtext" finished-at="2023-04-08T01:10:08 IST" duration-ms="140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGiftingtext -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:08 IST" name="captureScreenshotinFailure" finished-at="2023-04-08T01:10:08 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifySignIntext status=SUCCESS method=VerifyHomepageWebelements.VerifySignIntext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshotinFailure -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:08 IST" name="captureScreenshotinFailure" finished-at="2023-04-08T01:10:08 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyGiftingtext status=SUCCESS method=VerifyHomepageWebelements.verifyGiftingtext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshotinFailure -->
-        <test-method signature="verifyStoreLocatortext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:08 IST" name="verifyStoreLocatortext" finished-at="2023-04-08T01:10:08 IST" duration-ms="66" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-null
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at LivingLiquidztestNg.VerifyHomepageWebelements.verifyStoreLocatortext(VerifyHomepageWebelements.java:76)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStoreLocatortext -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:08 IST" name="captureScreenshotinFailure" finished-at="2023-04-08T01:10:09 IST" duration-ms="1160" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyStoreLocatortext status=FAILURE method=VerifyHomepageWebelements.verifyStoreLocatortext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshotinFailure -->
-        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:09 IST" name="objectClear" finished-at="2023-04-08T01:10:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objectClear -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-08T01:10:17 IST" name="closeBrowser" finished-at="2023-04-08T01:10:17 IST" duration-ms="763" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- LivingLiquidztestNg.VerifyHomepageWebelements -->
-      <class name="LivingLiquidztestNg.VerifySearchbox">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-08T01:09:52 IST" name="openBrowser" finished-at="2023-04-08T01:10:01 IST" duration-ms="8169" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifySearch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-08T01:10:09 IST" name="verifySearch" finished-at="2023-04-08T01:10:16 IST" duration-ms="7154" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=111.0.1661.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 888954ef3ca5e9742d16c38185a38aeb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=111.0.1661.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 888954ef3ca5e9742d16c38185a38aeb
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-at LivingLiquidztestNg.VerifySearchbox.verifySearch(VerifySearchbox.java:62)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearch -->
-        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-08T01:10:09 IST" name="pomPageLaunch" finished-at="2023-04-08T01:10:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pomPageLaunch -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-08T01:10:17 IST" name="captureScreenshotinFailure" finished-at="2023-04-08T01:10:17 IST" duration-ms="11" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifySearch status=FAILURE method=VerifySearchbox.verifySearch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=111.0.1661.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 888954ef3ca5e9742d16c38185a38aeb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=111.0.1661.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 888954ef3ca5e9742d16c38185a38aeb
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at utils.Utility.captureScreenshot(Utility.java:27)
-at LivingLiquidztestNg.VerifySearchbox.captureScreenshotinFailure(VerifySearchbox.java:72)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshotinFailure -->
-        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-08T01:10:17 IST" name="objectClear" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680896417019" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objectClear -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-08T01:10:17 IST" name="closeBrowser" finished-at="2023-04-08T01:10:17 IST" duration-ms="3" status="FAIL">
+        <test-method signature="verifySignInTitlePage()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="verifySignInTitlePage" finished-at="2023-04-21T13:01:48 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=111.0.1661.62)
+  (Session info: MicrosoftEdge=112.0.1722.48)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 888954ef3ca5e9742d16c38185a38aeb]]>
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=111.0.1661.62)
+  (Session info: MicrosoftEdge=112.0.1722.48)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 888954ef3ca5e9742d16c38185a38aeb
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at LivingLiquidztestNg.VerifySearchbox.closeBrowser(VerifySearchbox.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at browserSetUp.Base.openEdgeBrowser(Base.java:16)
+at LivingLiquidztestNg.VerifyHomepageWebelements.openBrowser(VerifyHomepageWebelements.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -475,8 +125,8 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
 at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.afterRun(TestRunner.java:877)
-at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
@@ -490,12 +140,819 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- verifySignInTitlePage -->
+        <test-method is-config="true" signature="backTomainPage(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="backTomainPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308903" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backTomainPage -->
+        <test-method is-config="true" signature="signInapp()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="signInapp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308916" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInapp -->
+        <test-method signature="verifySigninError()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="verifySigninError" finished-at="2023-04-21T13:01:48 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at browserSetUp.Base.openEdgeBrowser(Base.java:16)
+at LivingLiquidztestNg.VerifyHomepageWebelements.openBrowser(VerifyHomepageWebelements.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninError -->
+        <test-method is-config="true" signature="backTomainPage(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="backTomainPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308923" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backTomainPage -->
+        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="objectClear" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308934" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectClear -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@71809907]" started-at="2023-04-21T13:01:48 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308964" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- LivingLiquidztestNg.VerifySignIn -->
+      <class name="LivingLiquidztestNg.VerifyHomepageWebelements">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:45 IST" name="openBrowser" finished-at="2023-04-21T13:01:48 IST" duration-ms="3069" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at browserSetUp.Base.openEdgeBrowser(Base.java:16)
+at LivingLiquidztestNg.VerifyHomepageWebelements.openBrowser(VerifyHomepageWebelements.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="pomPageLaunch" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308888" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomPageLaunch -->
+        <test-method signature="VerifySignIntext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="VerifySignIntext" finished-at="2023-04-21T13:01:48 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at browserSetUp.Base.openEdgeBrowser(Base.java:16)
+at LivingLiquidztestNg.VerifyHomepageWebelements.openBrowser(VerifyHomepageWebelements.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignIntext -->
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="captureScreenshotinFailure" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308905" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotinFailure -->
+        <test-method signature="verifyGiftingtext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="verifyGiftingtext" finished-at="2023-04-21T13:01:48 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at browserSetUp.Base.openEdgeBrowser(Base.java:16)
+at LivingLiquidztestNg.VerifyHomepageWebelements.openBrowser(VerifyHomepageWebelements.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGiftingtext -->
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="captureScreenshotinFailure" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308924" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotinFailure -->
+        <test-method signature="verifyStoreLocatortext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="verifyStoreLocatortext" finished-at="2023-04-21T13:01:48 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at browserSetUp.Base.openEdgeBrowser(Base.java:16)
+at LivingLiquidztestNg.VerifyHomepageWebelements.openBrowser(VerifyHomepageWebelements.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStoreLocatortext -->
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="captureScreenshotinFailure" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308936" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotinFailure -->
+        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="objectClear" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308938" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectClear -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@6e20b53a]" started-at="2023-04-21T13:01:48 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308957" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- LivingLiquidztestNg.VerifyHomepageWebelements -->
+      <class name="LivingLiquidztestNg.VerifySearchbox">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-21T13:01:48 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308856" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-21T13:01:48 IST" name="pomPageLaunch" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308939" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomPageLaunch -->
+        <test-method signature="verifySearch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-21T13:01:48 IST" name="verifySearch" finished-at="2023-04-21T13:01:48 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=112.0.1722.48)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF7609AA5B2+12658]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760942852+747634]
+(No symbol) [0x00007FF7605DDD2E]
+(No symbol) [0x00007FF7605C7C01]
+(No symbol) [0x00007FF7605C9001]
+(No symbol) [0x00007FF7605C8F30]
+(No symbol) [0x00007FF7605B6202]
+(No symbol) [0x00007FF7605B5D7A]
+(No symbol) [0x00007FF760647316]
+(No symbol) [0x00007FF76063F1C3]
+(No symbol) [0x00007FF7606117D6]
+(No symbol) [0x00007FF7606109B5]
+(No symbol) [0x00007FF760611F44]
+Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF760855520+147088]
+(No symbol) [0x00007FF7606F91B6]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760894487+33959]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760897F55+49013]
+Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF760B89923+1305299]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76094AE0C+781868]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760950334+803668]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF76095048C+804012]
+Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF760958591+837041]
+BaseThreadInitThunk [0x00007FF8013D269D+29]
+RtlUserThreadStart [0x00007FF802A6A9F8+40]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at browserSetUp.Base.openEdgeBrowser(Base.java:16)
+at LivingLiquidztestNg.VerifyHomepageWebelements.openBrowser(VerifyHomepageWebelements.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-21T13:01:48 IST" name="captureScreenshotinFailure" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308949" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotinFailure -->
+        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-21T13:01:48 IST" name="objectClear" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308951" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectClear -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@3ce1e309]" started-at="2023-04-21T13:01:48 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062308962" status="SKIP">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- LivingLiquidztestNg.VerifySearchbox -->
     </test> <!-- EdgeTest -->
-    <test started-at="2023-04-08T01:09:45 IST" name="ChromeTest" finished-at="2023-04-08T01:10:18 IST" duration-ms="32943">
+    <test started-at="2023-04-21T13:01:45 IST" name="ChromeTest" finished-at="2023-04-21T13:02:10 IST" duration-ms="24512">
       <class name="LivingLiquidztestNg.VerifySignIn">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:09:59 IST" name="openBrowser" finished-at="2023-04-08T01:10:07 IST" duration-ms="7429" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:01:55 IST" name="openBrowser" finished-at="2023-04-21T13:02:00 IST" duration-ms="4311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -506,19 +963,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:07 IST" name="pomPageLaunch" finished-at="2023-04-08T01:10:07 IST" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:00 IST" name="pomPageLaunch" finished-at="2023-04-21T13:02:00 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pomPageLaunch -->
-        <test-method is-config="true" signature="signInapp()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:07 IST" name="signInapp" finished-at="2023-04-08T01:10:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="signInapp()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:00 IST" name="signInapp" finished-at="2023-04-21T13:02:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInapp -->
-        <test-method signature="verifySignInTitlePage()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:07 IST" name="verifySignInTitlePage" finished-at="2023-04-08T01:10:10 IST" duration-ms="2686" status="PASS">
+        <test-method signature="verifySignInTitlePage()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:00 IST" name="verifySignInTitlePage" finished-at="2023-04-21T13:02:01 IST" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignInTitlePage -->
-        <test-method is-config="true" signature="backTomainPage(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:10 IST" name="backTomainPage" finished-at="2023-04-08T01:10:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="backTomainPage(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:01 IST" name="backTomainPage" finished-at="2023-04-21T13:02:01 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -529,32 +986,32 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backTomainPage -->
-        <test-method is-config="true" signature="signInapp()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:10 IST" name="signInapp" finished-at="2023-04-08T01:10:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="signInapp()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:01 IST" name="signInapp" finished-at="2023-04-21T13:02:01 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInapp -->
-        <test-method signature="verifySigninError()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:10 IST" name="verifySigninError" finished-at="2023-04-08T01:10:16 IST" duration-ms="6303" status="FAIL">
+        <test-method signature="verifySigninError()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:01 IST" name="verifySigninError" finished-at="2023-04-21T13:02:09 IST" duration-ms="8549" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=111.0.5563.147)
+  (Session info: chrome=112.0.5615.137)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bc2d2cad6a874e57b6b141dc67db5f6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6971a6773a39e387c95ec3e67bac2541
 *** Element info: {Using=xpath, value=(//button[@id="wbr-btn-send-otp"])[2]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=111.0.5563.147)
+  (Session info: chrome=112.0.5615.137)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bc2d2cad6a874e57b6b141dc67db5f6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6971a6773a39e387c95ec3e67bac2541
 *** Element info: {Using=xpath, value=(//button[@id="wbr-btn-send-otp"])[2]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -597,7 +1054,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySigninError -->
-        <test-method is-config="true" signature="backTomainPage(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:16 IST" name="backTomainPage" finished-at="2023-04-08T01:10:16 IST" duration-ms="17" status="FAIL">
+        <test-method is-config="true" signature="backTomainPage(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:09 IST" name="backTomainPage" finished-at="2023-04-21T13:02:09 IST" duration-ms="10" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -609,22 +1066,22 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=111.0.5563.147)
+  (Session info: chrome=112.0.5615.137)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bc2d2cad6a874e57b6b141dc67db5f6]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6971a6773a39e387c95ec3e67bac2541]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=111.0.5563.147)
+  (Session info: chrome=112.0.5615.137)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bc2d2cad6a874e57b6b141dc67db5f6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6971a6773a39e387c95ec3e67bac2541
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -666,17 +1123,73 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backTomainPage -->
-        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:16 IST" name="objectClear" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680896416436" status="SKIP">
+        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:09 IST" name="objectClear" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682062329591" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectClear -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-08T01:10:18 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680896418793" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifySignIn@15eb5ee5]" started-at="2023-04-21T13:02:10 IST" name="closeBrowser" finished-at="2023-04-21T13:02:10 IST" duration-ms="4" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6971a6773a39e387c95ec3e67bac2541]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.137)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6971a6773a39e387c95ec3e67bac2541
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at LivingLiquidztestNg.VerifySignIn.closeBrowser(VerifySignIn.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- LivingLiquidztestNg.VerifySignIn -->
       <class name="LivingLiquidztestNg.VerifyHomepageWebelements">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:09:45 IST" name="openBrowser" finished-at="2023-04-08T01:09:53 IST" duration-ms="7455" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:01:45 IST" name="openBrowser" finished-at="2023-04-21T13:01:51 IST" duration-ms="5740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -687,15 +1200,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:07 IST" name="pomPageLaunch" finished-at="2023-04-08T01:10:07 IST" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:00 IST" name="pomPageLaunch" finished-at="2023-04-21T13:02:00 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pomPageLaunch -->
-        <test-method signature="VerifySignIntext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:07 IST" name="VerifySignIntext" finished-at="2023-04-08T01:10:07 IST" duration-ms="145" status="PASS">
+        <test-method signature="VerifySignIntext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:00 IST" name="VerifySignIntext" finished-at="2023-04-21T13:02:00 IST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignIntext -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:07 IST" name="captureScreenshotinFailure" finished-at="2023-04-08T01:10:07 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:00 IST" name="captureScreenshotinFailure" finished-at="2023-04-21T13:02:00 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -706,11 +1219,22 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotinFailure -->
-        <test-method signature="verifyGiftingtext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:07 IST" name="verifyGiftingtext" finished-at="2023-04-08T01:10:08 IST" duration-ms="492" status="PASS">
+        <test-method signature="verifyGiftingtext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:00 IST" name="verifyGiftingtext" finished-at="2023-04-21T13:02:00 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGiftingtext -->
-        <test-method signature="verifyStoreLocatortext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:08 IST" name="verifyStoreLocatortext" finished-at="2023-04-08T01:10:08 IST" duration-ms="433" status="FAIL">
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:00 IST" name="captureScreenshotinFailure" finished-at="2023-04-21T13:02:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGiftingtext status=SUCCESS method=VerifyHomepageWebelements.verifyGiftingtext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotinFailure -->
+        <test-method signature="verifyStoreLocatortext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:00 IST" name="verifyStoreLocatortext" finished-at="2023-04-21T13:02:00 IST" duration-ms="149" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -743,18 +1267,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStoreLocatortext -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:08 IST" name="captureScreenshotinFailure" finished-at="2023-04-08T01:10:08 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyGiftingtext status=SUCCESS method=VerifyHomepageWebelements.verifyGiftingtext()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshotinFailure -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:08 IST" name="captureScreenshotinFailure" finished-at="2023-04-08T01:10:09 IST" duration-ms="1202" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:00 IST" name="captureScreenshotinFailure" finished-at="2023-04-21T13:02:02 IST" duration-ms="1840" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -765,17 +1278,17 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotinFailure -->
-        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:09 IST" name="objectClear" finished-at="2023-04-08T01:10:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:02 IST" name="objectClear" finished-at="2023-04-21T13:02:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectClear -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-08T01:10:17 IST" name="closeBrowser" finished-at="2023-04-08T01:10:18 IST" duration-ms="1416" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifyHomepageWebelements@1725dc0f]" started-at="2023-04-21T13:02:09 IST" name="closeBrowser" finished-at="2023-04-21T13:02:09 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- LivingLiquidztestNg.VerifyHomepageWebelements -->
       <class name="LivingLiquidztestNg.VerifySearchbox">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-08T01:09:53 IST" name="openBrowser" finished-at="2023-04-08T01:09:59 IST" duration-ms="6501" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-21T13:01:51 IST" name="openBrowser" finished-at="2023-04-21T13:01:55 IST" duration-ms="4312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -786,15 +1299,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-08T01:10:09 IST" name="pomPageLaunch" finished-at="2023-04-08T01:10:09 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="pomPageLaunch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-21T13:02:02 IST" name="pomPageLaunch" finished-at="2023-04-21T13:02:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pomPageLaunch -->
-        <test-method signature="verifySearch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-08T01:10:09 IST" name="verifySearch" finished-at="2023-04-08T01:10:17 IST" duration-ms="7624" status="PASS">
+        <test-method signature="verifySearch()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-21T13:02:02 IST" name="verifySearch" finished-at="2023-04-21T13:02:06 IST" duration-ms="4552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearch -->
-        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-08T01:10:17 IST" name="captureScreenshotinFailure" finished-at="2023-04-08T01:10:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotinFailure(org.testng.ITestResult)[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-21T13:02:06 IST" name="captureScreenshotinFailure" finished-at="2023-04-21T13:02:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -805,67 +1318,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotinFailure -->
-        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-08T01:10:17 IST" name="objectClear" finished-at="2023-04-08T01:10:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="objectClear()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-21T13:02:06 IST" name="objectClear" finished-at="2023-04-21T13:02:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectClear -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-08T01:10:18 IST" name="closeBrowser" finished-at="2023-04-08T01:10:18 IST" duration-ms="10" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=111.0.5563.147)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c07f8c98435825989034c80bd6e4c3e6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=111.0.5563.147)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUKTA', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MUKTA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c07f8c98435825989034c80bd6e4c3e6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at LivingLiquidztestNg.VerifySearchbox.closeBrowser(VerifySearchbox.java:83)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.afterRun(TestRunner.java:877)
-at org.testng.TestRunner.run(TestRunner.java:599)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LivingLiquidztestNg.VerifySearchbox@2145b572]" started-at="2023-04-21T13:02:09 IST" name="closeBrowser" finished-at="2023-04-21T13:02:10 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
