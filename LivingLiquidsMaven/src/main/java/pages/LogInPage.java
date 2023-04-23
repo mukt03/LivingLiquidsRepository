@@ -36,6 +36,7 @@ public void passOTP(String OTP) {
 }
 public void clickOnProceed() {
 	proceed.click();
+	System.out.println("clickedOnProceed");
 }
 public String textOferrorofInvalidOTP() {
 	return(inValidOTPText.getText());

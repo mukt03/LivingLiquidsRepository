@@ -12,6 +12,8 @@
           <include name="closeBrowser"/>
           <include name="verifyStoreLocatortext"/>
           <include name="objectClear"/>
+          <include name="VerifySignIntext"/>
+          <include name="verifyGiftingtext"/>
         </methods>
       </class> <!-- LivingLiquidztestNg.VerifyHomepageWebelements -->
       <class name="LivingLiquidztestNg.VerifySignIn">
@@ -21,6 +23,7 @@
           <include name="backTomainPage"/>
           <include name="closeBrowser"/>
           <include name="objectClear"/>
+          <include name="verifySignInTitlePage"/>
           <include name="verifySigninError"/>
           <include name="openBrowser"/>
         </methods>

@@ -57,6 +57,7 @@ public class VerifySearchbox extends Base{
 		homePage.PassDataInSearchBox(data);
 		homePage.clickonfirstSearchitem();
 		
+		//Thread.sleep(3000);
 		Thread.sleep(2000);
 		Utility.captureScreenshot(driver,testID);
 		String productPagetitle=driver.getTitle();
